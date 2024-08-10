@@ -14,7 +14,7 @@
 		"@std/testing": "jsr:@std/testing",
 		"@std/testing/bdd": "jsr:@std/testing/bdd",
 		"@std/uuid": "jsr:@std/uuid",
-		"@pumpn/eslint-config": "jsr:@pumpn/eslint-config@^15.0.6",
+		"@pumpn/eslint-config": "jsr:@pumpn/eslint-config@^15.1.1",
 		"radashi": "npm:radashi@12.2.0-beta.313bfb4",
 		"preact/jsx-runtime": "https://esm.sh/*preact@10/jsx-runtime?dev",
 		"preact": "https://esm.sh/*preact@10?dev",
