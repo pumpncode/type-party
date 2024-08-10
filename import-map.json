@@ -1,0 +1,24 @@
+{
+	"imports": {
+		"@/": "./",
+		"@std/assert": "jsr:@std/assert",
+		"@std/async": "jsr:@std/async",
+		"@std/cli": "jsr:@std/cli",
+		"@std/collections": "jsr:@std/collections",
+		"@std/csv": "jsr:@std/csv",
+		"@std/encoding": "jsr:@std/encoding",
+		"@std/fmt/colors": "jsr:@std/fmt/colors",
+		"@std/fs": "jsr:@std/fs",
+		"@std/http": "jsr:@std/http",
+		"@std/path": "jsr:@std/path",
+		"@std/testing": "jsr:@std/testing",
+		"@std/testing/bdd": "jsr:@std/testing/bdd",
+		"@std/uuid": "jsr:@std/uuid",
+		"@pumpn/eslint-config": "jsr:@pumpn/eslint-config@^15.0.6",
+		"radashi": "npm:radashi@12.2.0-beta.313bfb4",
+		"preact/jsx-runtime": "https://esm.sh/*preact@10/jsx-runtime?dev",
+		"preact": "https://esm.sh/*preact@10?dev",
+		"ow": "npm:ow",
+		"ts-arithmetic": "npm:ts-arithmetic"
+	}
+}

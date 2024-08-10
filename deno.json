@@ -1,0 +1,45 @@
+{
+	"name": "@pumpn/type-party",
+	"version": "0.1.0",
+	"exports": "./type-party.js",
+	"tasks": {
+		"lint": "DENO_FUTURE=1 deno run -A --env=.env npm:eslint"
+	},
+	"compilerOptions": {
+		"allowJs": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"checkJs": true,
+		"exactOptionalPropertyTypes": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noPropertyAccessFromIndexSignature": false,
+		"noUncheckedIndexedAccess": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"strictNullChecks": true,
+		"strict": true,
+		"lib": [
+			"deno.ns",
+			"deno.unstable"
+		]
+	},
+	"importMap": "./import-map.json",
+	"exclude": [
+		"**/_fresh/*",
+		"node_modules"
+	],
+	"test": {
+		"exclude": [
+			"patches/"
+		]
+	},
+	"nodeModulesDir": true
+}

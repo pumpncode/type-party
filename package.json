@@ -1,0 +1,7 @@
+{
+	"devDependencies": {
+		"@pumpn/eslint-config": "^15.0.6",
+		"eslint": "^9.8.0"
+	},
+	"type": "module"
+}
