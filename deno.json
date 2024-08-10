@@ -1,6 +1,6 @@
 {
 	"name": "@pumpn/type-party",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"exports": "./type-party.js",
 	"tasks": {
 		"lint": "DENO_FUTURE=1 deno run -A --env=.env npm:eslint"
