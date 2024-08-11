@@ -1,6 +1,7 @@
 /*
 	eslint-disable
 
+	import-x/unambiguous,
 	unicorn/prevent-abbreviations,
 	max-classes-per-file,
 	no-unused-vars
@@ -9,8 +10,8 @@
 */
 
 /**
- * @import { Placeholder } from "./placeholder.doc.js";
  * @import { IsEqual } from "./is-equal.doc.js";
+ * @import { Placeholder } from "./range/_exports.js";
  */
 
 const unsetSymbol = Symbol("unset");
@@ -784,5 +785,3 @@ const RangeClass = class extends FunctionHelperClass {
  * @template {number} end
  * @typedef {Call<RangeHelper<start,end>>} Range
  */
-
-export {};
