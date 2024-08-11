@@ -11,15 +11,13 @@
 
 /**
  * @import { IsEqual } from "./is-equal.doc.js";
+ * @import { Placeholder } from "./range/_exports.js";
  */
 
 const unsetSymbol = Symbol("unset");
-const placeholderSymbol = Symbol("placeholder");
 const rawArgumentsSymbol = Symbol("rawArgumentsSymbol");
 
 /** @typedef {typeof unsetSymbol} unset */
-
-/** @typedef {typeof placeholderSymbol} Placeholder */
 
 /** @typedef {typeof rawArgumentsSymbol} RawArguments */
 
