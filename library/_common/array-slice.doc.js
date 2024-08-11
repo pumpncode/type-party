@@ -1,12 +1,13 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
+
+import "./array-slice/_exports.js";
 
 /**
  * @import { VariableLengthArraySliceHelper, ArraySliceHelper } from "./array-slice/_exports.js";

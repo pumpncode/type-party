@@ -1,16 +1,18 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
 
+import "./_common/_exports.js";
+import "./splice/_exports.js";
+
 /**
  * @import { UnknownArray } from "./_common/_exports.js";
- * @import { SplitArrayByIndex } from "./array-splice/_exports.js";
+ * @import { SplitArrayByIndex } from "./splice/_exports.js";
  */
 
 /**

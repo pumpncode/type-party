@@ -9,7 +9,7 @@
 */
 
 /**
- * @import { UnknownArray } from "@/type-party/_common/array-slice/variable-length-array-slice-helper/_common/unknown-array.doc.js";
+ * @import { UnknownArray } from "@/library/_common/unknown-array.doc.js";
  */
 
 /**

@@ -1,20 +1,22 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
 
+import "./_common/_exports.js";
+import "./split-variable-array-by-index/_exports.js";
+
 /**
  * @import { GtOrEq, Subtract } from "ts-arithmetic";
- * @import { SplitFixedArrayByIndex } from "@/library/array-splice/_common/split-fixed-array-by-index.doc.js";
- * @import { UnknownArray } from "@/library/_common/array-slice/variable-length-array-slice-helper/_common/unknown-array.doc.js";
- * @import { BuildTuple } from "@/library/array-splice/_common/build-tuple.doc.js";
- * @import { VariablePartOfArray } from "./split-variable-array-by-index/_exports.js";
+ * @import { UnknownArray } from "@/library/_common/unknown-array.doc.js";
+ * @import { BuildTuple } from "@/library/splice/_common/build-tuple.doc.js";
+ * @import { SplitFixedArrayByIndex } from "@/library/splice/_common/split-fixed-array-by-index.doc.js";
  * @import { StaticPartOfArray } from "./_common/_exports.js";
+ * @import { VariablePartOfArray } from "./split-variable-array-by-index/_exports.js";
  */
 
 /**

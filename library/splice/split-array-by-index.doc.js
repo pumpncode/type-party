@@ -1,19 +1,19 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
 
-// /** @typedef {import('./unknown-array').UnknownArray} UnknownArray */
+import "./_common/_exports.js";
+import "./split-array-by-index/_exports.js";
 
 /**
+ * @import { UnknownArray } from "@/library/_common/unknown-array.doc.js"
  * @import { SplitFixedArrayByIndex } from "./_common/_exports.js";
  * @import { SplitVariableArrayByIndex } from "./split-array-by-index/_exports.js";
- * @import { UnknownArray } from "@/type-party/_common/array-slice/variable-length-array-slice-helper/_common/unknown-array.doc.js"
  */
 
 /**

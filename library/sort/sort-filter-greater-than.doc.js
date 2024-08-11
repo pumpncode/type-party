@@ -1,16 +1,18 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
 
+import "./sort-filter-greater-than/_exports.js";
+import "./_common/_exports.js";
+
 /**
- * @import { SortGreaterThan } from "./sort-filter-greater-than/_exports.js";
  * @import { SortIterator } from "./_common/_exports.js";
+ * @import { SortGreaterThan } from "./sort-filter-greater-than/_exports.js";
  */
 
 /**

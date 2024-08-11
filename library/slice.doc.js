@@ -1,16 +1,18 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
 
+import "./_common/_exports.js";
+import "./slice/_exports.js";
+
 /**
- * @import { StringSlice } from "./slice/_exports.js";
  * @import { ArraySlice } from "./_common/_exports.js";
+ * @import { StringSlice } from "./slice/_exports.js";
  * @import { StringToArray } from "./string-to-array.doc.js";
  */
 

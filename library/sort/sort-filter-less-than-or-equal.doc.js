@@ -1,12 +1,14 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
-	unicorn/no-empty-file,
-	unicorn/prevent-abbreviations
+	unicorn/prevent-abbreviations,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
+
+import "./sort-filter-less-than-or-equal/_exports.js";
+import "./_common/_exports.js";
 
 /**
  * @import { SortLessThanOrEqual } from "./sort-filter-less-than-or-equal/_exports.js";
