@@ -11,7 +11,7 @@
 
 /**
  * @import { IsEqual } from "./is-equal.doc.js";
- * @import { Placeholder } from "./range/_exports.js";
+ * @import { Placeholder } from "./range/placeholder.doc.js";
  */
 
 const unsetSymbol = Symbol("unset");
