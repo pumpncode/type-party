@@ -2,6 +2,14 @@
 	"name": "@pumpn/type-party",
 	"version": "0.1.3",
 	"exports": "./type-party.js",
+	"publish": {
+		"include": [
+			"./**/*.js"
+		],
+		"exclude": [
+			"node_modules"
+		]
+	},
 	"tasks": {
 		"lint": "DENO_FUTURE=1 deno run -A --env=.env npm:eslint"
 	},
