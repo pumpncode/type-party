@@ -10,7 +10,7 @@ export * from "./not.doc.js";
 export * from "./range.doc.js";
 export * from "./slice.doc.js";
 export * from "./some.doc.js";
-// export * from "./sort.doc.js";
+export * from "./sort.doc.js";
 export * from "./splice.doc.js";
 export * from "./string-to-array.doc.js";
 export * from "./string-to-number.doc.js";
