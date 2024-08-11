@@ -3,7 +3,8 @@
 
 	unicorn/prevent-abbreviations,
 	max-classes-per-file,
-	no-unused-vars
+	no-unused-vars,
+	import-x/no-unassigned-import
 	--
 	jsdoc
 */
@@ -786,5 +787,3 @@ const RangeClass = class extends FunctionHelperClass {
  * @template {number} end
  * @typedef {Call<RangeHelper<start,end>>} Range
  */
-
-export {};
