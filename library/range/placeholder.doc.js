@@ -1,7 +1,6 @@
 /*
 	eslint-disable
 
-	import-x/unambiguous,
 	unicorn/prevent-abbreviations,
 	no-unused-vars
 	--
@@ -11,3 +10,5 @@
 const placeholderSymbol = Symbol("placeholder");
 
 /** @typedef {typeof placeholderSymbol} Placeholder */
+
+export {};
