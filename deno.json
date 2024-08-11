@@ -4,7 +4,8 @@
 	"exports": "./type-party.js",
 	"publish": {
 		"include": [
-			"./**/*.js"
+			"./**/*.js",
+			"./**/*.ts"
 		],
 		"exclude": [
 			"node_modules"
