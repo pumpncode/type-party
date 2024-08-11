@@ -1,1 +1,1 @@
-export * from "./library/range.doc.js";
+export * from "./type-party.js";
