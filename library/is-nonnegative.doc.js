@@ -12,7 +12,7 @@
  * @template {number} NumberTemplate
  * @typedef {(
  * `${NumberTemplate}` extends `-${number}`
- * 	? true
- * 	: false
+ * 	? false
+ * 	: true
  * )} IsNonnegative
  */

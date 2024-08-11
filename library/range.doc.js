@@ -3,13 +3,10 @@
 
 	unicorn/prevent-abbreviations,
 	max-classes-per-file,
-	no-unused-vars,
-	import-x/no-unassigned-import
+	no-unused-vars
 	--
 	jsdoc
 */
-
-import "./range/_exports.js";
 
 /**
  * @import { IsEqual } from "./is-equal.doc.js";
