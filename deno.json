@@ -1,6 +1,6 @@
 {
 	"name": "@pumpn/type-party",
-	"version": "0.1.13",
+	"version": "0.1.14",
 	"exports": "./type-party.js",
 	"publish": {
 		"include": [
