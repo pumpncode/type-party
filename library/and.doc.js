@@ -9,11 +9,13 @@
 */
 
 /**
- * @template A
- * @template B
+ * @template {true|false} A
+ * @template {true|false} B
  * @typedef {(
- * (<G>() => G extends A ? 1 : 2) extends (<G>() => G extends B ? 1 : 2)
- * 	? true
+ * A extends true
+ * 	? B extends true
+ * 		? true
+ * 		: false
  * 	: false
- * )} IsEqual
+ * )} And
  */

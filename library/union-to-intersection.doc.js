@@ -10,11 +10,8 @@
 
 /**
  * @template U
- * @typedef {(
- * (U extends any ? (k: U) => void : never) extends (
- * 	k: infer I
- *  ) => void
- * ? I
- * : never
- * )} UnionToIntersection
+ * @typedef {(U extends any ?
+ *      (k: U) => void : never) extends
+ *      (k: infer I extends U) => void ?
+ *  I : never} UnionToIntersection
  */

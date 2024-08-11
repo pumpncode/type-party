@@ -9,11 +9,10 @@
 */
 
 /**
- * @template A
- * @template B
+ * @template {number} NumberTemplate
  * @typedef {(
- * (<G>() => G extends A ? 1 : 2) extends (<G>() => G extends B ? 1 : 2)
+ * `${NumberTemplate}` extends `-${number}`
  * 	? true
  * 	: false
- * )} IsEqual
+ * )} IsNonnegative
  */

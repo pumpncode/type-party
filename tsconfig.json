@@ -19,6 +19,7 @@
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
 		"strict": true
 	},
 	"exclude": [

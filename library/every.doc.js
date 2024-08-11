@@ -9,11 +9,11 @@
 */
 
 /**
- * @template A
- * @template B
+ * @template {readonly boolean[]} TupleTemplate
+ * @template {unknown} [TestTemplate=true]
  * @typedef {(
- * (<G>() => G extends A ? 1 : 2) extends (<G>() => G extends B ? 1 : 2)
+ * TupleTemplate extends readonly TestTemplate[]
  * 	? true
  * 	: false
- * )} IsEqual
+ * )} Every
  */

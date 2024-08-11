@@ -9,9 +9,9 @@
 */
 
 /**
- * @import { And } from "ts-arithmetic";
  * @import { VariableLengthArraySliceHelper, ArraySliceHelper } from "./array-slice/_exports.js";
  * @import { IsEqual } from "@/library/is-equal.doc.js";
+ * @import { And } from "@/library/and.doc.js";
  */
 
 /**
@@ -19,7 +19,7 @@
  * @template {number} [Start=never]
  * @template {number} [End=never]
  * @typedef {(
- * And<IsEqual<Start, never>, IsEqual<End, never>> extends 1
+ * And<IsEqual<Start, never>, IsEqual<End, never>> extends true
  * 	? Array_
  * 	: number extends Array_["length"]
  * 		? VariableLengthArraySliceHelper<Array_, Start, End>

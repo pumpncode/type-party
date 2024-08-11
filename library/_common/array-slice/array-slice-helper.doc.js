@@ -9,8 +9,9 @@
 */
 
 /**
- * @import { LtOrEq, IsNegative, GtOrEq, Add } from "ts-arithmetic";
+ * @import { LtOrEq, GtOrEq, Add } from "ts-arithmetic";
  * @import { Min } from "@/library/_common/min.doc.js";
+ * @import { IsNegative } from "@/library/is-negative.doc.js";
  * @import { ArraySliceByPositiveIndex } from "./_common/_exports.js";
  */
 

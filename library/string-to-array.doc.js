@@ -11,9 +11,11 @@
 /**
  * @template {string} StringTemplate
  * @template {string[]} [ResultTemplate=[]]
- * @typedef {string extends StringTemplate
+ * @typedef {(
+ * string extends StringTemplate
  * 	? never
  * 	: StringTemplate extends `${infer FirstCharacterTemplate}${infer RestTemplate}`
  * 		? StringToArray<RestTemplate, [...ResultTemplate, FirstCharacterTemplate]>
- * 		: ResultTemplate} StringToArray
+ * 		: ResultTemplate
+ * )} StringToArray
  */
