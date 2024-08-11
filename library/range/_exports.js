@@ -1,7 +1,1 @@
-/**
- * @import { Placeholder } from "./placeholder.doc.js"
- */
-
-/**
- * @typedef {Placeholder} Placeholder
- */
+export * from "./placeholder.doc.js";
