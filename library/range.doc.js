@@ -9,7 +9,7 @@
 */
 
 /**
- * @import { Placeholder } from "./range/placeholder.doc.js";
+ * @import { Placeholder } from "./placeholder.doc.js";
  * @import { IsEqual } from "./is-equal.doc.js";
  */
 
