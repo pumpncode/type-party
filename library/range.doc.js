@@ -8,6 +8,8 @@
 	jsdoc
 */
 
+import "./range/_exports.js";
+
 /**
  * @import { IsEqual } from "./is-equal.doc.js";
  * @import { Placeholder } from "./range/_exports.js";
