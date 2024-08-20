@@ -497,11 +497,11 @@ const rawArgumentsSymbol = Symbol("rawArgumentsSymbol");
  * @template {any[]} [output=[]]
  * @typedef {output["length"] extends length
  * 	? output
- * 	: RangeImpl<
+ * 	: RangeImplementation<
  * 		start,
  * 		length,
  * 		[...output, Call<Add<start, output["length"]>>]
- * 	>} RangeImpl
+ * 	>} RangeImplementation
  */
 
 /**
@@ -754,7 +754,7 @@ const AbsClass = class extends FunctionHelperClass {
 
 /**
  * @template {FunctionHelper} ThisTemplate
- * @typedef {ThisTemplate["args"] extends [infer start extends number,infer end extends number	] ? Call<LessThanOrEqual, start, end> extends true	? Pipe<start,[Sub<end, Placeholder>, Add<1>, Abs]> extends infer length extends number? RangeImpl<start, length>: never	: never: never} RangeType
+ * @typedef {ThisTemplate["args"] extends [infer start extends number,infer end extends number	] ? Call<LessThanOrEqual, start, end> extends true	? Pipe<start,[Sub<end, Placeholder>, Add<1>, Abs]> extends infer length extends number? RangeImplementation<start, length>: never	: never: never} RangeType
  */
 
 /**

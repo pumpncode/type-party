@@ -9,8 +9,8 @@
 */
 
 /**
- * @template {true|false} A
- * @template {true|false} B
+ * @template {boolean} A
+ * @template {boolean} B
  * @typedef {(
  * A extends true
  * 	? B extends true
